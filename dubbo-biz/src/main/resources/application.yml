@@ -2,7 +2,7 @@ server:
   port: 8085
 spring:
   dubbo:
-    application:
+    application:gti
       name: dubbo-provider
     registry:
       address: zookeeper://127.0.0.1:2181
@@ -10,3 +10,4 @@ spring:
     protocol:
       port: 29014
     scan: com.nfsq.yqf.dubboprovider.biz
+#######
