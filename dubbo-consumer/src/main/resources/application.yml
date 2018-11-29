@@ -1,0 +1,13 @@
+##服务端口号
+server:
+  port: 8086
+spring:
+  dubbo:
+    ##dubbo的应用名
+    application:
+      name: dubbo-consumer
+      ##dubbo的注册中心的ip地址
+    registry:
+      address: zookeeper://127.0.0.1:2181
+      ##需要扫dubbo注解的包
+    scan: com.nfsq.yqf.dubboconsumer.controller
